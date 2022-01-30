@@ -1,7 +1,9 @@
 import react from 'react'
+import Header from './Components/Header'
+import './App.css'
 
 export default function App(){
     return (
-        <h3>App is working</h3>
+        <Header/>
     )
 }
