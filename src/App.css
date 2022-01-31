@@ -39,16 +39,15 @@ nav h2{
     align-self: center;
 }
 .hero .hero_content{
-    padding: 20px;
+    padding: 40px;
     width: 60%;
     font-size: 200%;
 }
 
 .card-holder{
     margin: 15px auto;
-    padding: 10px 20px;
+    padding: 10px 40px;
     display: flex;
-    width: 70%;
 }
 
 .card-holder a{
