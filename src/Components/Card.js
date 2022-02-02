@@ -14,7 +14,7 @@ import react from 'react'
 function CardInfo(props) {
     return (
         <div className="card">
-            <div className= {props.backImg}/>
+            <div className= {`card-img img-${props.backImg}`}/>
             <a href="#" className="featured_button">sold out</a>
             <i className="fa fa-star"> </i> <span>{props.star} (6) {props.country}</span>
             <p>{props.desc}</p>
@@ -27,7 +27,7 @@ function CardInfoDesc({backImg, star, country, price, desc}) {
     // This is a redo of the above function. It's built using the props destructuring method
     return (
         <div className="card">
-            <div className= {backImg}/>
+            <div className={`card-img img-${backImg}`}/>
             <a href="#" className="featured_button">sold out</a>
             <i className="fa fa-star"> </i> <span>{star} (6) {country}</span>
             <p>{desc}</p>
@@ -39,9 +39,10 @@ function CardInfoDesc({backImg, star, country, price, desc}) {
 export default function Card() {
     return (
         <section className="card-holder">
-            <CardInfo star="5.0" country="USA" price="136" desc="Visit our Wonderful Museum" backImg="card-img img-1"/>
-            <CardInfoDesc star="4.5" country="NIG" price="212" desc="A state of Culture" backImg="card-img img-2"/>
-            <CardInfo star="4.8" country="UK" price="188" desc="Welcome to United Kingdoms" backImg="card-img img-3"/>
+            <CardInfo star="5.0" country="USA" price="136" desc="Visit our Wonderful Museum" backImg="1"/>
+            <CardInfoDesc star="4.5" country="NIG" price="212" desc="A state of Culture" backImg="2"/>
+            <CardInfo star="4.8" country="UK" price="188" desc="Welcome to United Kingdoms" backImg="3"/>
         </section>
     )
 }
+
