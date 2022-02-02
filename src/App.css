@@ -48,6 +48,7 @@ nav h2{
     margin: 15px auto;
     padding: 10px 40px;
     display: flex;
+    justify-content: space-between;
 }
 
 .card-holder a{
@@ -89,4 +90,10 @@ nav h2{
 }
 .img-1{
     background-image: url("../public/Imgs/building.jpg");
+}
+.img-2{
+    background-image: url("../public/Imgs/tools.jpg");
+}
+.img-3{
+    background-image: url("../public/Imgs/drugs.jpg");
 }
