@@ -1,20 +1,16 @@
 import react from 'react'
-//
-// const card_details = [
-//     [5.0, 'USA', 136],
-//     [4.5, 'NIG', 250],
-//     [4.8, 'UK', 120]
-// ]
-// let cards;
-//
-// for (let i = 0; i < card_details.length; i++) {
-//     cards += `<`
-// }
+
+const card_details = [
+    [5.0, 'USA', 136, "Visit our Wonderful Museum", 1],
+    [4.5, 'NIG', 250, "A state of Culture", 2],
+    [4.8, 'UK', 120, "Welcome to United Kingdoms", 3]
+]
+
 
 function CardInfo(props) {
     return (
         <div className="card">
-            <div className= {`card-img img-${props.backImg}`}/>
+            <div className={`card-img img-${props.backImg}`}/>
             <a href="#" className="featured_button">sold out</a>
             <i className="fa fa-star"> </i> <span>{props.star} (6) {props.country}</span>
             <p>{props.desc}</p>
@@ -37,11 +33,12 @@ function CardInfoDesc({backImg, star, country, price, desc}) {
 }
 
 export default function Card() {
+    const cards = card_details.map(items => {
+        return <CardInfoDesc star={items[0]} country={items[1]} price={items[2]} desc={items[3]} backImg={items[4]}/>;
+    })
     return (
         <section className="card-holder">
-            <CardInfo star="5.0" country="USA" price="136" desc="Visit our Wonderful Museum" backImg="1"/>
-            <CardInfoDesc star="4.5" country="NIG" price="212" desc="A state of Culture" backImg="2"/>
-            <CardInfo star="4.8" country="UK" price="188" desc="Welcome to United Kingdoms" backImg="3"/>
+            {cards}
         </section>
     )
 }
