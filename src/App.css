@@ -101,7 +101,7 @@ nav h2{
 @media screen and (max-width: 500px){
     .hero img{
         align-self: auto;
-        width: 90%;
+        width: 100%;
     }
     .hero{
         min-height: auto;
