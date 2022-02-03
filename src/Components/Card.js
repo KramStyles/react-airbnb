@@ -2,7 +2,7 @@ import react from 'react'
 
 const card_details = [
     [5.0, 'USA', 136, "Visit our Wonderful Museum", 1, false],
-    [4.5, 'NIG', 250, "A state of Culture", 2],
+    [4.5, 'NIG', 250, "A state of Culture", 2, true],
     [4.8, 'UK', 120, "Welcome to United Kingdoms", 3, false]
 ]
 
@@ -21,11 +21,13 @@ function CardInfo(props) {
 
 function CardInfoDesc({backImg, star, country, price, desc, available}) {
     // This is a redo of the above function. It's built using the props destructuring method
+    let badgeText;
+    if (available) badgeText = "Online"; else badgeText = "Sold Out"
     return (
         <div className="card">
             <div className={`card-img img-${backImg}`}/>
             {/*Checks if the last item is set to false. Meaning item is not available. so it shows sold out*/}
-            {available === false && <a href="#" className="featured_button">sold out</a>}
+            {<a href="#" className="featured_button">{badgeText}</a>}
             <i className="fa fa-star"> </i> <span>{star} (6) {country}</span>
             <p>{desc}</p>
             <a href="#"><b>From ${price} </b>/ Person</a>

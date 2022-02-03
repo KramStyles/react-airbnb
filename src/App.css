@@ -97,3 +97,24 @@ nav h2{
 .img-3{
     background-image: url("../public/Imgs/drugs.jpg");
 }
+
+@media screen and (max-width: 500px){
+    .hero img{
+        align-self: auto;
+        width: 90%;
+    }
+    .hero{
+        min-height: auto;
+    }
+    .hero .hero_content{
+        width: 100%;
+        font-size: 150%;
+    }
+    .card-holder{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
