@@ -81,3 +81,15 @@ section{
 .london{
     background-image: url('../public/Imgs/london.jpeg');
 }
+
+@media screen and (max-width: 600px) {
+    .journey{
+        display: block;
+    }
+    .img, .content{
+        width: 100%;
+    }
+    article{
+        margin-top: 50px;
+    }
+}
