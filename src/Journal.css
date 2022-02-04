@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --main-color: #F55A5A;
+}
 body{
     background-color: #eee;
     font-family: Poppins;
@@ -13,7 +16,7 @@ h1, h2, h3, h4, h5, h6{
 }
 header{
     height: 60px;
-    background-color: #F55A5A;
+    background-color: var(--main-color);
     text-align: center;
     color: white;
     padding: 25px;
@@ -41,6 +44,26 @@ section{
 }
 .content{
     width: 60%;
-    background-color: #bbbbbb;
     min-height: 250px;
+    display: flex;
+    align-items: center;
+}
+.content .fa{
+    color: var(--main-color);
+}
+.content h3{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.content h1{
+    font-size: 3em;
+    margin: 5px 0 20px;
+}
+.content h4{
+    /*font-weight: bold;*/
+
+}
+.content p{
+    margin: 7px 0;
 }
