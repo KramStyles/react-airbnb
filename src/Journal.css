@@ -18,3 +18,29 @@ header{
     color: white;
     padding: 25px;
 }
+
+section{
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+    padding: 50px 0;
+}
+.journey{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width:30%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.beijing{
+    background-image: url('../public/Imgs/beijing.jpeg');
+}
+.content{
+    width: 60%;
+    background-color: #bbbbbb;
+    min-height: 250px;
+}
