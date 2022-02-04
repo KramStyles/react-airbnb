@@ -31,6 +31,9 @@ section{
 .journey{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #bbbbbb;
 }
 .img{
     width:30%;
