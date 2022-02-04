@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a714e08-7f8b-41ad-8c41-94c93631ce0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Journal/Body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Journal/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Journal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Journal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -36,7 +43,9 @@
     <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="24WL4xiHLWX7EZ2fbyFcHZEDqWa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -77,9 +86,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,7 +121,8 @@
       <updated>1643656302195</updated>
       <workItem from="1643656326892" duration="6968000" />
       <workItem from="1643707241916" duration="4347000" />
-      <workItem from="1643741212131" duration="22583000" />
+      <workItem from="1643741212131" duration="24092000" />
+      <workItem from="1643963993086" duration="4400000" />
     </task>
     <servers />
   </component>
@@ -142,6 +154,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
