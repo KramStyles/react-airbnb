@@ -42,9 +42,7 @@ section{
     background-size: cover;
     background-position: center;
 }
-.beijing{
-    background-image: url('../public/Imgs/beijing.jpeg');
-}
+
 .content{
     width: 60%;
     min-height: 250px;
@@ -69,4 +67,17 @@ section{
 }
 .content p{
     margin: 7px 0;
+}
+/*IMAGES*/
+.beijing{
+    background-image: url('../public/Imgs/beijing.jpeg');
+}
+.tokyo{
+    background-image: url('../public/Imgs/tokyo.jpeg');
+}
+.warsaw{
+    background-image: url('../public/Imgs/warsaw.jpeg');
+}
+.london{
+    background-image: url('../public/Imgs/london.jpeg');
 }
