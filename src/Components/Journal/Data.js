@@ -18,8 +18,8 @@ export default [
         'description': 'Tokyo historically known in the West as Tokio and officially the Tokyo Metropolis (東京都, Tōkyō-to), is the capital, the largest city, and the most populous metropolitan area in the Greater Tokyo Area, the Kantō region, and Japan, as well as the most populous metropolitan area in the world[8] and most populous prefecture of Japan. '
     },
     {
-        'country' : 'Japan',
-        'place' : 'Tokyo',
+        'country' : 'Sweden',
+        'place' : 'Warsaw',
         'time_period': 'November 2019 - March 2020',
         'description': "Warsaw is the capital and largest city of Poland. The metropolis stands on the River Vistula in east-central Poland and its population is officially estimated at 1.8 million residents within a greater metropolitan area of 3.1 million residents,[5] which makes Warsaw the 7th most-populous capital city in the European Union."
     }
